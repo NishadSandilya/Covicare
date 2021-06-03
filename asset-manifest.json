@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Covicare/static/css/main.966a2e33.chunk.css",
-    "main.js": "/Covicare/static/js/main.573b323b.chunk.js",
-    "main.js.map": "/Covicare/static/js/main.573b323b.chunk.js.map",
+    "main.css": "/Covicare/static/css/main.773a4917.chunk.css",
+    "main.js": "/Covicare/static/js/main.7a630de7.chunk.js",
+    "main.js.map": "/Covicare/static/js/main.7a630de7.chunk.js.map",
     "runtime-main.js": "/Covicare/static/js/runtime-main.c8d33813.js",
     "runtime-main.js.map": "/Covicare/static/js/runtime-main.c8d33813.js.map",
-    "static/js/2.b9ada870.chunk.js": "/Covicare/static/js/2.b9ada870.chunk.js",
-    "static/js/2.b9ada870.chunk.js.map": "/Covicare/static/js/2.b9ada870.chunk.js.map",
+    "static/js/2.65568d2f.chunk.js": "/Covicare/static/js/2.65568d2f.chunk.js",
+    "static/js/2.65568d2f.chunk.js.map": "/Covicare/static/js/2.65568d2f.chunk.js.map",
     "index.html": "/Covicare/index.html",
-    "static/css/main.966a2e33.chunk.css.map": "/Covicare/static/css/main.966a2e33.chunk.css.map",
-    "static/js/2.b9ada870.chunk.js.LICENSE.txt": "/Covicare/static/js/2.b9ada870.chunk.js.LICENSE.txt",
+    "static/css/main.773a4917.chunk.css.map": "/Covicare/static/css/main.773a4917.chunk.css.map",
+    "static/js/2.65568d2f.chunk.js.LICENSE.txt": "/Covicare/static/js/2.65568d2f.chunk.js.LICENSE.txt",
     "static/media/app.css": "/Covicare/static/media/bgMobile.7bd94a89.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c8d33813.js",
-    "static/js/2.b9ada870.chunk.js",
-    "static/css/main.966a2e33.chunk.css",
-    "static/js/main.573b323b.chunk.js"
+    "static/js/2.65568d2f.chunk.js",
+    "static/css/main.773a4917.chunk.css",
+    "static/js/main.7a630de7.chunk.js"
   ]
 }
