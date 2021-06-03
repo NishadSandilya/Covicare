@@ -69,16 +69,13 @@
     @include elevateMobileBold;
     &__navItems{
         list-style: none;
+        opacity: 0.3;
         &__icons{
             width: 6vw;
-            & path{
-                fill: getColors(dark);
-            }
-            & .selected{
-                & path{
-                    fill: getColors(accent);
-                }
-            }
         }
     }
+}
+
+.selected{
+    opacity: 0.7;
 }

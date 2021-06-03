@@ -1,25 +1,26 @@
 import { home, account, graph, services, menu } from '../../img/icons.js';
+import { NavLink } from 'react-router-dom';
 import useRenders from '../../useRenders';
 
 const NavMobile = () => {
     useRenders('NavMobile');
     return (
         <div className="navMobile">
-            <li className="navMobile__navItems">
+            <NavLink activeClassName = 'selected' exact to = '/' className="navMobile__navItems">
                 {home}
-            </li>
-            <li className="navMobile__navItems">
+            </NavLink>
+            <NavLink exact to = '/account' className="navMobile__navItems">
                 {account}
-            </li>
-            <li className="navMobile__navItems">
+            </NavLink>
+            <NavLink exact to = '/services' className="navMobile__navItems">
                 {services}
-            </li>
-            <li className="navMobile__navItems">
+            </NavLink>
+            <NavLink exact to = '/cases' className="navMobile__navItems">
                 {graph}
-            </li>
-            <li className="navMobile__navItems">
+            </NavLink>
+            <NavLink exact to = '/menu' className="navMobile__navItems">
                 {menu}
-            </li>
+            </NavLink>
         </div>
     )
 }
