@@ -1,0 +1,12 @@
+@import "variables";
+
+@mixin mobileFill {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+@mixin elevateMobileBold{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 5px 9px 2px $shadow;
+    border-radius: 2vw;
+}

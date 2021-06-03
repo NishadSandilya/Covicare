@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1vw;
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.home {
+  width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ececec url("../img//bgMobile.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home__logo {
+  margin-top: 10vw;
+  width: 150px;
+  height: 150px;
+}
+
+.home__title p {
+  text-align: center;
+  font-size: 12vw;
+  font-weight: 600;
+  color: #9D9B9E;
+  line-height: 13vw;
+}
+
+.home__title__desc {
+  margin-top: 2vw;
+}
+
+.home__title__desc p {
+  font-size: 4.5vw;
+  font-weight: 500;
+  color: #b6b6b6;
+  padding: 1vw 3vw;
+  line-height: 5.5vw;
+  text-align: center;
+}
+
+.navMobile {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 95vw;
+  height: 15vw;
+  margin: 3vw 0;
+  z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  -webkit-box-shadow: 3px 5px 9px 2px rgba(0, 0, 0, 0.342);
+          box-shadow: 3px 5px 9px 2px rgba(0, 0, 0, 0.342);
+  border-radius: 2vw;
+}
+
+.navMobile__navItems {
+  list-style: none;
+}
+
+.navMobile__navItems__icons {
+  width: 6vw;
+}
+
+.navMobile__navItems__icons path {
+  fill: #9D9B9E;
+}
+
+.navMobile__navItems__icons .selected path {
+  fill: #FFAA1F;
+}
+/*# sourceMappingURL=app.css.map */

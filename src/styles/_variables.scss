@@ -1,0 +1,34 @@
+/* Color Theme Swatches in Hex */
+$palette: (
+    dark: #9D9B9E,
+    light: #D2D4D4,
+    extraLight:#ececec,
+    white: #FFFFFF,
+    accent: #FFAA1F,
+    subAccent: #FFE338,
+    text: #b6b6b6,
+);
+
+$fonts: (
+    mobileLarge: 12vw,
+    mobileMedium: 9vw,
+    mobileRegular: 4.5vw,
+    mobileSmall: 3vw,
+);
+
+$weights: (
+    mobileBold: 600,
+    mobileMedium: 500,
+    mobileRegular: 400,
+    mobileThin: 300,
+);
+
+$lineHeights:(
+    mobileLarge: 13vw,
+    mobileMedium: 10vw,
+    mobileRegular: 5.5vw,
+    mobileSmall: 4vw,
+);
+
+//standalone variables
+$shadow : rgba(0, 0, 0, 0.342);

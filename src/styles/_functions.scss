@@ -1,0 +1,18 @@
+@import "mixins";
+@import "variables";
+
+@function getFonts($input) {
+    @return map-get($map: $fonts, $key: $input);
+}
+
+@function getFontWeights($input) {
+    @return map-get($map: $weights, $key: $input);
+}
+
+@function getColors($input) {
+    @return map-get($map: $palette, $key: $input);
+};
+
+@function getHeights($input) {
+    @return map-get($map: $lineHeights, $key: $input)
+}
