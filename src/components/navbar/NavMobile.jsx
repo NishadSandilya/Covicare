@@ -6,7 +6,7 @@ const NavMobile = () => {
     useRenders('NavMobile');
     return (
         <div className="navMobile">
-            <NavLink activeClassName = 'selected' exact to = '/' className="navMobile__navItems">
+            <NavLink exact to = '/' className="navMobile__navItems">
                 {home}
             </NavLink>
             <NavLink exact to = '/account' className="navMobile__navItems">

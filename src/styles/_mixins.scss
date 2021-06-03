@@ -1,4 +1,5 @@
 @import "variables";
+@import 'functions';
 
 @mixin mobileFill {
     width: 100vw;
@@ -9,4 +10,13 @@
     background-color: rgb(255, 255, 255);
     box-shadow: 3px 5px 9px 2px $shadow;
     border-radius: 2vw;
+}
+
+@mixin mobileBackground($url){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: getColors(extraLight) url($url) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
 }

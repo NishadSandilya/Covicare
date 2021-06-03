@@ -20,12 +20,7 @@
 
 .home{
     @include mobileFill;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: getColors(extraLight) url('../img//bgMobile.png') no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
+    @include mobileBackground('../img/bgMobile.png');
 
     &__logo{
         margin-top: 10vw;
@@ -69,13 +64,18 @@
     @include elevateMobileBold;
     &__navItems{
         list-style: none;
-        opacity: 0.3;
+        opacity: 0.2;
         &__icons{
             width: 6vw;
         }
     }
 }
 
-.selected{
-    opacity: 0.7;
+.cases{
+    @include mobileFill;
+    @include mobileBackground('../img/bgCasesMobile.png');
+}
+
+.active{
+    opacity: 0.8;
 }

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const Home = () => {
     useRenders('Home');
     return (
-        <motion.div className="home" initial = {{opacity: 0, transform: 'translateX(-100px)'}} animate = {{opacity: 1, transform: 'translateX(0px)'}} exit = {{opacity: 0, transform: 'translateX(-100px)'}}>
+        <motion.div className="home" initial = {{opacity: 0, transform: 'translateX(-100px)'}} animate = {{opacity: 1, transform: 'translateX(0px)'}} exit = {{opacity: 0}}>
             <Logo />
             <div className="home__title">
                 <p>Covicare</p>

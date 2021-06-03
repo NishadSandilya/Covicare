@@ -1,6 +1,3 @@
-@import "mixins";
-@import "variables";
-
 @function getFonts($input) {
     @return map-get($map: $fonts, $key: $input);
 }
